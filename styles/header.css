@@ -1,0 +1,53 @@
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 22px 0;
+    background: #fff;
+    z-index: 1000;
+    box-shadow: 0 0px 3px gray;
+}
+
+header .navbar {
+    gap: 40px;
+    position: relative;
+}
+
+header .navbar a {
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #212121;
+
+    &:hover {
+        border-bottom: 2.2px solid #000;
+    }
+}
+
+header .account-buttons {
+    gap: 12px;
+}
+
+header .account-buttons .btn.login {
+    border: 1.20px solid rgba(33, 33, 33, 0.3);
+    border-radius: 8px;
+    padding: 14px 26px;
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #212121;
+}
+
+header .account-buttons .btn.register {
+    border-radius: 8px;
+    padding: 14px 26px;
+    background: #1937ba;
+    font-family: var(--font-family);
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #fff;
+}

@@ -1,5 +1,3 @@
-/* ========================= accordin menu ========================= */
-
 const tabData = {
   general: {
     title: "GENERAL",
@@ -165,5 +163,3 @@ document.addEventListener('click', function (e) {
     }
   });
 });
-
-/* ========================= end of accordion ========================= */

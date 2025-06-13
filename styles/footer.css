@@ -1,0 +1,64 @@
+/* ================= footer ================= */
+footer {
+    background: #F2F3FB;
+    padding-top: 88px;
+    padding-bottom: 22px;
+}
+
+footer .row .top-side {
+    display: flex;
+    gap: 104px;
+}
+
+footer .row .top-side .contacts .descr {
+    width: 280px;
+    margin-top: 15px;
+    margin-bottom: 35px;
+    font-family: var(--second-family);
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: rgba(33, 33, 33, 0.6);
+}
+
+footer .row .top-side .contacts .social-links a {
+    margin-right: 16px;
+}
+
+footer .row .top-side .links {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+    width: 100%;
+}
+
+footer .row .top-side .links .box h3 {
+    font-family: var(--font-family);
+    font-size: 18px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: #212121;
+    margin-bottom: 24px;
+}
+
+footer .row .top-side .links .box a {
+    display: block;
+    margin-bottom: 20px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: rgba(33, 33, 33, 0.6);
+}
+
+footer .row .bottom-side {
+    text-align: center;
+    margin-top: 48px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 140%;
+    letter-spacing: 0.01em;
+    color: rgba(33, 33, 33, 0.6);
+}
