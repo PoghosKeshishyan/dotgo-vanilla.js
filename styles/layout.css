@@ -34,9 +34,11 @@
     outline: none;
     text-decoration: none;
     box-sizing: border-box;
+    list-style-type: none;
+    transition: 0.3s all linear;
 }
 
-.container {
+.wrapper {
     max-width: 1216px;
     margin: auto;
 }
@@ -68,4 +70,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+@media (max-width: 1260px) {
+    .wrapper {
+        padding-inline: 16px;
+    }
 }

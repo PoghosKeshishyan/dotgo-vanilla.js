@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/questions-list.css">
     <link rel="stylesheet" href="styles/hosting-plans.css">
+    <script src="javascripts/header.js" defer></script>
     <script src="javascripts/questions-list.js" defer></script>
     <title>.DOT | GO</title>
 </head>
@@ -17,24 +18,59 @@
 <body>
 
     <header>
-        <div class="container">
+        <div class="wrapper">
             <div class="row flex-between">
 
                 <a href="#" class="logo">
                     <img src="images/partials/logo.svg" alt="logo">
                 </a>
 
-                <nav class="navbar flex-center">
-                    <a href="#">Domain</a>
-                    <a href="#">Hosting</a>
-                    <a href="#">VPS</a>
-                    <a href="#">SSL</a>
-                    <a href="#">Support</a>
-                </nav>
+                <ul class="navbar flex-center">
+                    <li><a href="#">Domain</a></li>
+                    <li><a href="#">Hosting</a></li>
+                    <li><a href="#">VPS</a></li>
+                    <li><a href="#">SSL</a></li>
 
-                <div class="account-buttons flex-center">
-                    <a href="#" class="btn login">Login</a>
-                    <a href="#" class="btn register">Register</a>
+                    <li class="has-dropdown">
+                        <a href="#">Services <img src="images/partials/arrow.svg" alt="arrow"></a>
+
+                        <ul class="dropdown">
+                            <li><a href="#">Website and Application Development</a></li>
+                            <li><a href="#">Website and Application Development</a></li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <div class="right-side flex-center">
+                    <div class="account-buttons flex-center">
+                        <a href="#" class="btn login">Login</a>
+                        <a href="#" class="btn register">Register</a>
+                    </div>
+
+                    <div class="change-lang">
+                        <div class="selected-lang flex-center">
+                            <img src="images/partials/flag-en.svg" alt="EN Flag" />
+                            <span>EN</span>
+                            <img src="images/partials/arrow.svg" class="flag-arrow" alt="flag-arrow">
+                        </div>
+
+                        <div class="lang-dropdown">
+                            <div class="lang-option flex-center">
+                                <img src="images/partials/flag-am.svg" alt="AM Flag" />
+                                <a href="#">AM</a>
+                            </div>
+
+                            <div class="lang-option flex-center">
+                                <img src="images/partials/flag-ru.svg" alt="RU Flag" />
+                                <a href="#">RU</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="icons">
+                        <img src="images/partials/auth-icon.svg" alt="auth" class="auth-icon">
+                        <img src="images/partials/menubar.svg" alt="menubar" class="menubar-icon">
+                    </div>
                 </div>
 
             </div>
@@ -42,7 +78,7 @@
     </header>
 
     <section class="intro">
-        <div class="container">
+        <div class="wrapper">
             <div class="row flex-center">
                 <div class="title">
                     <h1>Find Your Dream Domain Name</h1>
@@ -71,7 +107,7 @@
         <img src="images/home_page/intro-border-bottom.svg" alt="border-bottom" class="border-bottom">
     </section>
 
-    <section class="services container">
+    <section class="services wrapper">
         <div class="heading flex-between">
             <h2>The Best Service For You Who Are Growth</h2>
             <p>Our powerful web hosting tools get the job done right, and are designed so that as you grow, your site
@@ -112,13 +148,13 @@
         </div>
     </section>
 
-    <section class="map-locations container">
+    <section class="map-locations wrapper">
         <h2>Get in connect with more people</h2>
         <p>With our best service, make it easy for users to touch them</p>
         <img src="images/home_page/map.svg" alt="map">
     </section>
 
-    <section class="hosting-plans container">
+    <section class="hosting-plans wrapper">
         <h2>Choose Your Hosting Plan</h2>
         <p>We are a leading web solutions services provider</p>
 
@@ -217,7 +253,7 @@
         </div>
     </section>
 
-    <section class="questions-list container">
+    <section class="questions-list wrapper">
         <h2>Have a question ? Look here ...</h2>
 
         <div class="row">
@@ -231,7 +267,7 @@
         </div>
     </section>
 
-    <section class="register-banner container flex-between">
+    <section class="register-banner wrapper flex-between">
         <div class="content">
             <h2>Begin your journey from today</h2>
             <p>Buildings are constructed in stages, begin with our offer today.</p>
@@ -241,7 +277,7 @@
     </section>
 
     <footer>
-        <div class="container">
+        <div class="wrapper">
             <div class="row">
 
                 <div class="top-side">
@@ -250,7 +286,8 @@
                             <img src="images/partials/logo.svg" alt="logo">
                         </a>
 
-                        <p class="descr">Our mission is to help millions of people harness the potential of the internet to build online success</p>
+                        <p class="descr">Our mission is to help millions of people harness the potential of the internet
+                            to build online success</p>
 
                         <div class="social-links">
                             <a href="https://www.facebook.com/" target="_blank">

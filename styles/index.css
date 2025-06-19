@@ -7,6 +7,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    display: flex;
 }
 
 .intro .border-bottom {
@@ -287,4 +288,46 @@
     line-height: 140%;
     letter-spacing: 0.01em;
     color: #fff;
+}
+
+
+/* ============ media queries ============ */
+@media (max-width: 860px) {
+    .intro .row {
+        text-align: left;
+        align-items: normal;
+    }
+
+    .intro .row .search {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .intro .row .top-level-domains {
+        margin-top: 0;
+        margin-bottom: 16px;
+    }
+
+    .intro .row .search form {
+        width: 100%;
+    }
+
+    .intro .row .search form input[type=search] {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+    .intro .row .search form input[type=submit] {
+        margin-left: 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .intro {
+        height: 400px;
+    }
+
+    .intro .row .title h1 {
+        font-size: 34px;
+    }
 }
